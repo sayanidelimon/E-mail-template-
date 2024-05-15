@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important 6 Week Challenge Details</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins';
+            box-sizing: border-box;
+
+        }
+        .wrapper{
+            background-image: url("image/collgelogo.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-color: rgba(150, 150, 150,0.5rem);
+            background-position: right center;
+            max-width: 660px;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            opacity: 0.95;
+            
+            
+        }
+
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 660px;
+            color: #000;
+            text-align: center;
+            background: linear-gradient(60deg, #ECF4FE,#d7dfe9);
+            background-position: center;
+            background-size: cover;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            opacity: 0.95;
+
+        }
+
+        .nav {
+            width: 100%;
+            background: #011222;
+            position: sticky;
+            top: 0;
+        }
+
+        .hero {
+            padding: 2rem;
+            margin-top: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #171717;
+        }
+
+        .mainInfo {
+            padding: 2rem;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .mainInfo h3 {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .mainInfo h3 span {
+            background: linear-gradient(to right, #0a3f4c, #0c6278,#0a5c50, #0a5c50);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        .mainInfo p {
+            font-size: 14px;
+            color: #171717;
+        }
+
+        .linkxnote {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 0 2rem;
+        }
+
+        .linkxnote a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #FF7F50;
+            padding: 1rem;
+            border: none;
+            outline: none;
+            transition: all 100ms ease;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .linkxnote a:hover {
+            background-color: #ff7f50dc;
+            color: #f3f3f3;
+        }
+
+        .linkxnote span {
+            font-weight: 600;
+            text-align: left;
+            font-size: 15px;
+            color: rgb(84, 50, 50);
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            text-align: left;
+            gap: 0.3rem;
+        }
+
+        .info h5 {
+            font-size: 0.7rem;
+        }
+        
+        .info p {
+            color: #171717;
+            font-size: 12px;
+        }
+
+        hr {
+            margin: 0.5rem 0;
+            border: 1px solid #011222;
+        }
+
+        .thanks{
+            font-weight: 600;
+        }
+
+        .regardInfo{
+            font-weight: 500;
+        }
+
+        footer{
+            background: #011222;
+            position: fixed;
+            width: 100%;
+        }
+
+        footer .footerLinks{
+            padding: 0 2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        footer a{
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer .footerLinks img{
+            width: 2.5rem;
+        }
+        .test-dates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        /* Initial date and time */
+        .date {
+            width: 48%;
+            background-color: #f5f5f5;
+            color: #0085FF;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .date h3 {
+            margin-bottom: 5px;
+        }
+        .time {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .button {
+            display: inline-block !important;
+            padding: 10px 20px !important;
+            background-color:  #4B66EA!important;
+            color: white !important;
+            text-align: center !important;
+            text-decoration: none !important;
+            font-size: 16px !important;
+            border: none !important;
+            border-radius: 5px !important;
+            cursor: pointer !important;
+            transition: background-color 0.3s !important;
+        }
+
+        .button:hover {
+            background-color: #447DF6!important; 
+        }
+
+
+        /* Responsive styling */
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="card">
+                <div class="hero">
+                    <h1>Important 6<br> Week Challenge Details</h1>
+                </div>
+                <div class="mainInfo">
+                    <h3>Dear <span>[PARENT FIRST NAME]</span>,</h3>
+                    <p>If you’re new to <b>College Mastermind,</b> welcome to the family! This email will detail all the important information for the <b>6 WEEK SAT CHALLENGE</b> that <b>[CHILD NAME]</b> will be participating in and what you can expect moving forward.</p>
+                    <div style="text-align: center; display: flex; justify-content: center;align-items: center; height: 7vh;">
+                        <p><strong>*Please read carefully*</strong></p>
+                    </div>
+                    
+                    <h3>Initial Test</h3>
+                    <h5>Everyone will take a diagnostic exam.</h5>
+                    <p>Choose any of the 4 times to take the initial test to get a starting score. This diagnostic test will help us set goals for [CHILD NAME] during the 6-week challenge.</p>
+                    
+                    <h3>Initial Test Dates</h3><br>
+                    <div class="test-dates">
+                        <div class="date">
+                            <h3>June 25th</h3>
+                            <p class="time">Morning Test - 10:00am - 2:00pm</p>
+                            <p class="time">Afternoon Test - 3:00pm - 7:00pm</p>
+                        </div>
+                        <div class="date">
+                            <h3>June 26th</h3>
+                            <p class="time">Morning Test - 10:00am - 2:00pm</p>
+                            <p class="time">Afternoon Test - 3:00pm - 7:00pm</p>
+                        </div>
+                    </div>
+                    <h3>Class Dates and Times:</h3><br>
+                    <div class="test-dates">
+                        <div class="date">
+                            <h3>Class Dates</h3>
+                            <p class="time">July 7 - August 17th</p>
+                            <p class="time">Monday, Wednesday, and Friday</p>
+                        </div>
+                        <div class="date">
+                            <h3>Class Times</h3>
+                            <p class="time">Morning session - 10:30am - 11:30am EST</p>
+                            <p class="time">Afternoon session - 3:30pm - 4:30pm EST</p>
+                        </div>
+                    </div>
+                    <p><em style="font-style: italic;">*Please log in 10 minutes prior to the beginning of the session.</em></p>
+                                  
+                    <h3>Saturday Exams</h3>
+                    <p>Every Saturday [CHILD NAME] will take a mock exam. This exam is a past SAT (not in the digital format). <br>It is recommended that you print out the exams ahead of time.The ideal is to <b>print them all at once and bind them into a book</b> at your local office supply center. We highly recommend that you label the tests with divider tabs as well so that they are easily found.</p><br>
+                    <div class="test-dates">
+                        <div class="date">
+                            <h3>Saturday Exams Dates</h3>
+                            <p class="time"><u>July-</u> 13th, 20th, and 27th</p>
+                            <p class="time"><u>August- </u>3rd, 10th, 17th</p>
+                        </div>
+                        <div class="date">
+                            <h3>Saturday Exams Times</h3>
+                            <p class="time"><u>Morning Test</u> - 10:00am - 2:00pm EST</p>
+                            <p class="time"><u>Afternoon Test</u> - 3:00pm - 7:00pm EST</p>
+                        </div>
+                    </div>
+                     
+                    <h3>Scores and Results</h3>
+                    <p>The scores from each exam will automatically come to the parents each week. As soon as your child submits their answers, the scoreswill be automatically calculated and an email will be sent. Make sure you read all of those emails.</p>
+                    <div style="padding-bottom: 2px;">
+                        <h3>Additional Information</h3><br>
+                        <div style="padding-left: 25px;">         
+                            <h5>Choose your class time</h5>
+                            <p>Each day we have class, your child has the option to attend either the morning or afternoon session. They're not obligated to stick tothe same time for each class, but they must pick one session (morning or afternoon) to attend every day.</p>
+                                
+                            <h5>Attendance</h5>
+                            <p>Your child needs to attend every class and every Saturday exam. 6 weeks is a tight timeline to get amazing results. This is anintensive experience and there are no make-up sessions.</p>
+                                
+                            <h5>Missed Sessions</h5>
+                            <p>A video recording will be made available should an emergency arise, but it recommended to purchase a private tutoring session for anymissed session.</p><br>
+                        </div>
+                    </div>
+
+                        
+                    <p><strong>You understand and agree that [CHILD’S NAME] is responsible for [HIS /HER] assignments!</strong></p><br>
+                    <p>A great plan and effective strategy are only the first steps to results. There will be homework assignments between sessions that arenecessary to get results.</p><br>
+                    
+                    <div style="background-color: white; padding: 20px;border-radius: 10px;
+                        border: 1px solid #ccc;max-width: 600px;margin: 0 auto;">
+                        <div style="padding-bottom: 10px;">
+                                <div style="text-align: center;">
+                                    <p style="color: #0085FF;"><strong>IMPORTANT!</strong></p>
+                                </div><br>                              
+                                <p>If you haven’t already done so, please <b>LOGIN</b> to your <b>College Mastermind</b> Dashboard. You’ll be able to track the progress and attendance for [CHILD NAME] and any other children you have enrolled with College Mastermind’s test prep or college advising programs.<b>Follow the link to create a password.</b></p><br>
+                                <div class="linkxnote">
+                                    <a class="button" href="[INSERT CLICKABLE LOGIN BUTTON]">LOGIN NOW</a>
+                                    <p style="text-align: center;background-color: #ece9e9;"><b>This link is valid for 1 hour</b></p>
+                        </div>        
+                    </div>
+            </div>
+            <div class="info">
+                <hr>
+                <p>Thank you for putting your trust in the College Mastermind team! We look forward to partnering with you throughout your test prep and college admissions journey!</p><br>
+                <h4>Kind regards,</h4>
+                <p><b>Erin Donovan<br>C.O.O. College Mastermind</b></p>
+                <p>If you wish to unsubscribe from our emails, please click <a href="unsubscribe-link">here</a>.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
